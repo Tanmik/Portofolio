@@ -6,7 +6,7 @@ function Webpage() {
     <div className="container">
       <header className="header">
         <img
-          src="/assets/pfp.jpg"
+          src={process.env.PUBLIC_URL + "/pfp.jpg"}
           alt="Profile"
           className="profile"
         />
@@ -46,8 +46,6 @@ function Webpage() {
         <h2>Projects</h2>
         <ul>
           <li><strong>PATHUBS:</strong> Pet community and help-sharing platform.</li>
-          <li><strong>gInk:</strong> Forked open-source annotation tool, ongoing improvements.</li>
-          <li><strong>WebDevelopment:</strong> Various web apps built with TypeScript and React.</li>
         </ul>
       </section>
 
