@@ -16,6 +16,7 @@ return (
         <p className="subtitle">
           Computer Science (AI Development) BINUS University
         </p>
+        <a href="https://www.linkedin.com/in/melvern-michio-055139289/">LinkedIn</a>
         <a className="cv-button" href="/Melvern-Michio-CV.pdf" download>
         Download CV (PDF)
         </a>
