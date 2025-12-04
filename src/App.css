@@ -1,64 +1,65 @@
-body {
-margin: 0;
-padding: 0;
-font-family: 'Inter', Arial, sans-serif;
-background: #0b0b0b;
-color: #eaeaea;
-}
-
-.container {
-width: 100%;
-max-width: 900px;
-margin: auto;
-padding: 2rem 1.5rem;
-}
-
-.header {
-display: flex;
+:root {
+justify-content: space-between;
 align-items: center;
-gap: 1.5rem;
-margin-bottom: 2.5rem;
+padding-bottom: 1.5rem;
+border-bottom: 1px solid #1f2733;
 }
 
 
-.profile {
-width: 100px;
-height: 100px;
-border-radius: 14px;
-object-fit: cover;
-border: 3px solid #2a2a2a;
-}
-
-.name {
-font-size: 2.4rem;
-font-weight: 700;
+.cv-name {
 margin: 0;
-color: #ffffff;
-}
-
-.subtitle {
-margin-top: 6px;
-color: #bfbfbf;
-font-size: 1rem;
+font-size: 2rem;
+font-weight: 700;
 }
 
 
-.cv-button {
-display: inline-block;
+.cv-contact {
+margin: 4px 0;
+color: var(--muted);
+}
+
+.cv-photo {
+width: 110px;
+height: 110px;
+object-fit: cover;
+border-radius: 12px;
+border: 2px solid #1f2733;
+}
+
+.cv-section {
+margin-top: 2rem;
+}
+
+.cv-section h2 {
+margin-bottom: 0.6rem;
+color: var(--accent);
+}
+
+.cv-entry {
+margin: 1rem 0;
+}
+
+.cv-entry h3 {
+margin: 0;
+}
+
+.cv-date {
+font-size: 0.9rem;
+color: var(--muted);
+}
+
+.cv-skills-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 1.2rem;
 margin-top: 1rem;
-padding: 0.6rem 1.2rem;
-background: #4fa3ff;
-color: black;
-border-radius: 10px;
-font-weight: bold;
-text-decoration: none;
 }
 
-.cv-button:hover {
-background: #7db7ff;
-}
-
-.card {
-background: #141414;
-padding: 1.8rem;
+.cv-footer {
+margin-top: 3rem;
+text-align: center;
+font-size: 0.9rem;
+color: var(--muted);
+padding-top: 1rem;
+border-top: 1px solid #1f2733;
 }
