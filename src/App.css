@@ -63,3 +63,35 @@ color: var(--muted);
 padding-top: 1rem;
 border-top: 1px solid #1f2733;
 }
+
+.cv-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.footer-social a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  text-decoration: underline;
+}
