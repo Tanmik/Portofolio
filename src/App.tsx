@@ -9,10 +9,9 @@ return (
       <div>
         <h1 className="cv-name">Melvern Michio Chie</h1>
         <p className="cv-contact">
-          <a href="mailto:melvern.chie@binus.ac.id">melvern.chie@binus.ac.id</a> ·
+          <a href="mailto:melvern.chie@gmail.com">melvern.chie@gmail.com</a>
           <span>+62 81513000050</span>
         </p>
-        <p className="cv-contact">NIM: 2702220946</p>
       </div>
       <img
         src={process.env.PUBLIC_URL + "/pfp.jpg"}
