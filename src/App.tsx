@@ -119,7 +119,13 @@ return (
       <p>AI, Coding, Socializing, Sports, Creative Work, Volunteering</p>
     </section>
 
-    <footer className="cv-footer">© 2025 · Melvern Michio Chie</footer>
+    <footer className="cv-footer">
+      <div className="footer-social">
+        <a href="https://linkedin.com/in/melvern-michio-055139289" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/Tanmik" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="mailto:melvern.chie@gmail.com">Email</a>
+      </div>
+    </footer>
   </div>
 );
 }

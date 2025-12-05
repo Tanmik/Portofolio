@@ -1,10 +1,10 @@
 :root {
-justify-content: space-between;
-align-items: center;
-padding-bottom: 1.5rem;
-border-bottom: 1px solid #1f2733;
+  --text: #e9ecf3;
+  --muted: #9aa4b2;
+  --bg: #0c1017;
+  --panel: #131922;
+  --accent: #4fa3ff;
 }
-
 
 .cv-name {
 margin: 0;
